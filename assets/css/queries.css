@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px){
+	.content, .connect {
+		width: 90%;
+		margin: 5%;
+
+	}
+
+	.connect {
+		margin-bottom: 15%;
+	}
+
+	.icon {
+		text-align: center;
+		width: 25%;
+	}	
+
+}
+
+
+
+@media screen and (max-width: 860px){
+	.content {
+		width: 70%;
+		margin-left: 3%;
+	}
+
+	.icon {
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin: 3%;
+	}
+
+	.connect {
+		width: 15%;
+		margin-left: 3%;
+		float: left;
+	}
+
+}
+
+
+@media screen and (max-width: 1024px){
+	.content {
+		margin-left: 3%;
+	}
+
+	.connect { 
+		width: 30%;
+	 }
+}

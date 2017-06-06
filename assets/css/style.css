@@ -1,0 +1,269 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {  /* necessary for the footer to stay at the bottom */
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../images/ep_naturalwhite.png");
+	line-height: 150%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	position: relative;
+}
+
+header {
+	height: 100px;
+	background-color: #fff;
+	position: relative;
+	margin: 0;
+}
+
+h1, h3 {
+	color: #4aaaa5;
+	font-family: Georgia, Times, "New Times Roman", serif;
+	margin-left: 20px;
+}
+
+hr {
+	margin: 20px;
+	height: 3px;
+	background-color: #ddd;
+	border: none;	
+}
+
+p {
+	margin: 20px;
+	color: #777777;
+}
+
+#boxed-header {
+	color: #fff;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 250px;
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+}
+
+#logo {
+	width: 50px;
+	height: 50px;
+}
+
+.icon {
+	float: left;
+	margin: 10px;
+}
+
+#iconBar {
+	margin-left: 30px;
+}
+
+.container {
+	min-height: 100%;
+	position: relative;
+}
+
+.content-wrapper {
+	padding: 20px 20px;
+	margin-bottom: 120px;  /* Height of the footer + 60 for good measure*/
+	clear: both;	
+}
+
+.content {
+	width: 60%;
+	min-height: 30%;
+	margin-left: 10%;  /* I know I know... it's supposed to be centered.  This looks better. */
+	background-color: #fff;
+	position: relative;
+	border: solid;
+	border-color: #ddd;
+	float: left;
+	margin-bottom: 10%;
+}
+.about-me {
+	float: left;
+	margin: 20px;
+}
+
+.connect {
+	width: 25%;
+	border: solid;
+	border-color: #ddd;
+	background-color: #fff;
+	margin-right: 3%;
+	float: right;
+}
+
+a.nav {
+	text-decoration: none;
+	color: #ccc;
+	float: right;
+	margin: 20px;
+}
+
+form {
+	padding: 20px;
+}
+
+input, textarea {
+	border-color: #ddd;
+	line-height: 150%;
+
+}
+
+input[type=submit], {
+	background-color: #4aaaa5;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	border: none;	
+}
+
+.project-container {
+	width: 250px;
+	height: 167px;
+	margin: 30px 36px 30px 36px;
+	float: left;	
+}
+
+.project {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+}
+
+.project-label {
+	padding: 10px 10px;
+	background-color: #4aaaa5;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 15px;	
+}
+
+/* Height and width set to 167 and 250 for a 2:3 ratio.  Images with approximately that ratio were more plentiful*/
+.project-image {
+	width: auto;
+	width: 250px;    
+	height: auto;
+	height: 167px;
+}
+
+.clear{
+	clear: both;
+}
+
+footer {
+	background-color: #666666;
+	color: #ffffff;
+	margin: 0;
+	margin-top: 20px;
+	padding-top: 20px;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-color: #4aaaa5;
+	position: absolute;
+	bottom: 0;	
+}
+
+@media screen and (max-width: 1024px){
+	.content {
+		margin-left: 3%;
+	}
+
+	.connect { 
+		width: 30%;
+	 }
+}
+
+@media screen and (max-width: 860px){
+	.content {
+		width: 70%;
+		margin-left: 3%;
+	}
+
+	.icon {
+		width: 100%;
+		float: left;
+		margin: 0;
+		margin: 3%;
+	}
+
+	.connect {
+		width: 15%;
+		margin-left: 3%;
+		float: left;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.content, .connect {
+		width: 90%;
+		margin: 5%;
+
+	}
+
+	.connect {
+		margin-bottom: 15%;
+	}
+
+	.icon {
+		text-align: center;
+		width: 25%;
+	}	
+
+}
+
+
+
+
+
+
+
+/*
+@media screen and (min-width: 769px) and (max-width: 860){
+	.content {
+		margin-left: 3%;
+		width: 80%;
+	}
+
+	.connect {
+		width: 100%;
+		margin-left: 5%;
+		float: left;
+	}
+
+	.icon {
+		width: 100%;
+		float: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
