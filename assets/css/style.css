@@ -182,7 +182,19 @@ footer {
 	bottom: 0;	
 }
 
+
 @media screen and (max-width: 1024px){
+	.content {
+		margin-left: 3%;
+		width: 60%;
+	}
+
+	.connect { 
+		width: 30%;
+	 }
+
+
+@media screen and (max-width: 980px){
 	.content {
 		margin-left: 3%;
 	}
@@ -190,28 +202,34 @@ footer {
 	.connect { 
 		width: 30%;
 	 }
+
+	 .project-container, .project-image {
+		height: 120px;
+		width: 180px;
+	}
+
+	.project-container {
+		margin: 5%;
+	}
 }
 
-@media screen and (max-width: 860px){
+@media screen and (max-width: 799px){
 	.content {
-		width: 70%;
 		margin-left: 3%;
 	}
 
-	.icon {
-		width: 100%;
-		float: left;
-		margin: 0;
-		margin: 3%;
+	.connect { 
+		width: 30%;
+	 }
+
+	 .project-container, .project-image {
+		height: 100px;
+		width: 150px;
 	}
 
-	.connect {
-		width: 15%;
-		margin-left: 3%;
-		float: left;
+	.project-container {
+		margin: 5%;
 	}
-
-}
 
 @media screen and (max-width: 768px){
 	.content, .connect {
@@ -227,34 +245,35 @@ footer {
 	.icon {
 		text-align: center;
 		width: 25%;
+	}
+
+	.project-container, .project-image {
+		height: 120px;
+		width: 180px;
+	}
+
+	.project-container {
+		margin: 5%;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+	.project-container, .project-image {
+		height: 160px;
+		width: 240px;
+		float: none;	
+	}
+	
+	.project-container {
+		margin: 25%;
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}	
-
 }
 
 
 
-
-
-
-
-/*
-@media screen and (min-width: 769px) and (max-width: 860){
-	.content {
-		margin-left: 3%;
-		width: 80%;
-	}
-
-	.connect {
-		width: 100%;
-		margin-left: 5%;
-		float: left;
-	}
-
-	.icon {
-		width: 100%;
-		float: none;
-	}
-}
 
 
 
